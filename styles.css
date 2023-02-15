@@ -20,6 +20,15 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+.label{
+  color: blue;
+}
+
+h2:hover{
+  font-size: large;
+  color: #9b2948;
+}
+
 .flag {
   height: 300px;
   width: 500px;
@@ -32,6 +41,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%
 }
 
 .threehoriz {
@@ -59,6 +69,10 @@ h2 {
 
 /* QUESTION 1 */
 
+.red {
+  background-color: red;
+}
+
 .orange {
   background-color: orange;
 }
@@ -75,7 +89,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -87,6 +101,10 @@ h2 {
   background-color: #fff;
 }
 
+#white {
+  background-color: white;
+}
+
 .black {
   background-color: #000;
 }
@@ -94,15 +112,18 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  height: 16.7%;
+  background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  height: 16.7%;
+  background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  height: 33.2%;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
@@ -129,7 +150,12 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  max-height: 40%;
+  align-self: center;
+  background-image: url('eagle.png');
 }
 
 .mexico-red {
@@ -148,16 +174,27 @@ h2 {
 
 /* For margin practice */
 .flag1 {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  margin-right: 5px;
   background-color: red;
   /* TODO */
 }
 
 .flag2 {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  margin-left: 5px;
   background-color: blue;
   /* TODO */
 }
 /* For padding practice */
 .padding-container {
+  padding: 60px;
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
